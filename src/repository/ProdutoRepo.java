@@ -10,6 +10,7 @@ public class ProdutoRepo extends BaseRepository<Produto> {
 
      // criando um constructor
     public ProdutoRepo(){
+        super();
         // garantindo que a lista seja criada
         this.db = new ProdutoFakeDB();
          // criando para guardar em fonte de dados

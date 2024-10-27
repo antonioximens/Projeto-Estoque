@@ -1,6 +1,6 @@
-import views.ClasseProdutoMenu;
+//import views.ClasseProdutoMenu;
 import views.ProdutoMenu;
-import views.SubClasseProdutoMenu;
+//import views.SubClasseProdutoMenu;
 
 public class App {
     public static void main(String[] args) throws Exception {

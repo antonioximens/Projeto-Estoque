@@ -11,6 +11,7 @@ public class ProdutoService extends BaseServico<Produto> {
 
     // chamando o contructor para inicializar o repo e usar os metodos do crud
     public ProdutoService(){
+        super();
         // inicializando a classe Repo com o new
         this.repo = new ProdutoRepo();
     }

@@ -11,6 +11,7 @@ public class SubClasseProdutoService extends BaseServico<SubClasseProduto>{
 
     // criando um contructor para classe
     public SubClasseProdutoService() {
+        super();
         // chamando o repo com this para pode usar os metodos do crud
         // caso na ofaça essa inicialização ele da um erro
         this.repo = new SubClasseProdutoRepo();

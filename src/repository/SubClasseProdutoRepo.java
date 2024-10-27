@@ -11,6 +11,7 @@ public class SubClasseProdutoRepo extends BaseRepository<SubClasseProduto> {
 
     // criando um constructor
     public SubClasseProdutoRepo() {
+        super();
         // garantindo que a lista seja criada
         this.db = new SubClasseProdutoFakeDB();
 
